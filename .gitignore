@@ -1,0 +1,37 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Vector Database & Cached Data
+data/chroma_db/
+data/chunks/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Markdown files
+*.md
+
+# Node.js (for future frontend)
+node_modules/
+.next/
+dist/
+build/
