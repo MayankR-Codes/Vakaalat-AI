@@ -20,3 +20,19 @@ google-generativeai==0.8.5
 python-dotenv==1.1.0  #Load .env files
 
 
+# Phase 1 — Offense Identifier AI Dependencies
+
+# FastAPI & Server
+fastapi==0.115.0   #REST API Framework
+uvicorn[standard]==0.34.0    #ASGI Server
+python-multipart==0.0.20       # Audio/file upload support
+
+# LangChain — Gemini Integration
+langchain-google-genai==2.1.0   #Langchain integration with gemini
+langchain-core==0.3.0     #LangChain  Core
+
+# Audio — Speech-to-Text (Whisper)
+openai-whisper==20240930     #Speech to Text(STT)
+
+# Audio — Text-to-Speech (Edge-TTS)
+edge-tts==7.0.03     #Text to Speech (TTS)
